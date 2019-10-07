@@ -14,15 +14,17 @@ Current stable can be found here: [![Release](https://img.shields.io/github/rele
 
 Information about changes since previous releases can be found in [changelog](CHANGELOG.md). This project supports [SemVer 2.0.0](https://semver.org/) (template is `{MAJOR}.{MINOR}.{PATCH}.{BUILD}`).
 
+Previous versions can be found on [releases](https://github.com/Gigas002/GitUnpacker/releases) and [branches](https://github.com/Gigas002/GitUnpacker/branches) pages.
+
 ## Requirements
 
 - [Git](https://git-scm.com/downloads) – 2.23.0 or later
 
 ## Build
 
-Project is built in **VS2019** (**16.3.1+**), but can also be built in **VSCode** (**1.38.1+**) with **omnisharp-vscode** (**1.21.4+**) extension. Build requirements are nuget dependencies (read below) and **.NET Core 3.0 SDK**.
+Project is built in **VS2019** (**16.3.2+**), but can also be built in **VSCode** (**1.38.1+**) with **omnisharp-vscode** (**1.21.4+**) extension. Build requirements are libs dependencies and **.NET Core 3.0 SDK**.
 
-The **Release** build is made by `Publish.ps1` script. Take a look at it in the repo. Note, that running this script requires installed **PowerShell** or **PowerShell Core** for **Linux** systems.
+The **Release** build is made by `Publish.ps1` script. Take a look at it in the repo. Note, that running this script requires installed **PowerShell** or **[PowerShell Core](https://github.com/PowerShell/PowerShell)** for **Linux**/**OSX** systems.
 
 ## Dependencies
 
@@ -44,9 +46,9 @@ The **Release** build is made by `Publish.ps1` script. Take a look at it in the 
 
 `--threads` is a `int`, representing threads count.
 
-Simple example looks like this: `GitUnpacker -i "C:/Repos/Input" -o "C:/Repos/Output"`.
+Simple example looks like this: `./GitUnpacker -i "../Input" -o "../Output"`.
 
-See `Start.ps1` for automating the work. Note, that running this script requires installed **PowerShell** or **PowerShell Core** for **Linux** systems.
+See `Start.ps1` for automating the work. Note, that running this script requires installed **PowerShell** or **[PowerShell Core](https://github.com/PowerShell/PowerShell)** for **Linux**/**OSX** systems.
 
 ## Localization
 
@@ -56,4 +58,4 @@ Currently, application is available on **English** and **Russian** languages.
 
 ## Contributing
 
-Feel free to contribute, make forks, change some code, add issues, etc.
+Feel free to contribute, make forks, change some code, add [issues](https://github.com/Gigas002/GitUnpacker/issues), etc.
