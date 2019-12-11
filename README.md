@@ -6,7 +6,7 @@ Simple tool to auto-convert `repoName.git` directories to actual repositories.
 
 Icon is made by **[Pixel perfect from FlatIcon](https://www.flaticon.com/authors/pixel-perfect)**.
 
-[![Build status](https://ci.appveyor.com/api/projects/status/khm2742n75a727r4?svg=true)](https://ci.appveyor.com/project/Gigas002/gitunpacker)
+[![Build status](https://ci.appveyor.com/api/projects/status/khm2742n75a727r4?svg=true)](https://ci.appveyor.com/project/Gigas002/gitunpacker)[![Actions Status](https://github.com/Gigas002/GitUnpacker/workflows/.NET%20Core/badge.svg)](https://github.com/Gigas002/GitUnpacker/actions) 
 
 ## Current version
 
