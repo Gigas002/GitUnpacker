@@ -22,7 +22,7 @@ Previous versions can be found on [releases](https://github.com/Gigas002/GitUnpa
 
 ## Build
 
-Project is built in **VS2019** (**16.3.2+**), but can also be built in **VSCode** (**1.38.1+**) with **omnisharp-vscode** (**1.21.4+**) extension. Build requirements are libs dependencies and **.NET Core 3.0 SDK**.
+Project is built in **VS2019** (**16.4.1+**), but can also be built in **VSCode** (**1.40.2+**) with **omnisharp-vscode** (**1.21.8+**) extension. Build requirements are libs dependencies and **.NET Core 3.1 SDK**.
 
 The **Release** build is made by `Publish.ps1` script. Take a look at it in the repo. Note, that running this script requires installed **PowerShell** or **[PowerShell Core](https://github.com/PowerShell/PowerShell)** for **Linux**/**OSX** systems.
 
